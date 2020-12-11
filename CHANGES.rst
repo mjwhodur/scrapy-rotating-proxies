@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+0.6.2 (2019-05-25)
+------------------
+
+* ``mean_backoff_time`` stats are always returned as float, to make
+  saving stats in databases easier.
+
+0.6.1 (2019-04-03)
+------------------
+
+* Fixed incorrect "proxies/good" stats values.
+
 0.6 (2018-12-28)
 ----------------
 
